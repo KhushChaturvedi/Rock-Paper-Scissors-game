@@ -1,0 +1,83 @@
+/* Header Content */
+
+#heading{
+    height: 10vmin;
+    width: 100%;
+    background-color: rgb(6, 6, 57);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 0.75rem;
+}
+
+/* Main Game Content */
+
+#main{
+    height: 40vmin;
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+button{
+    height: 150px;
+    width: 150px;  
+    border-radius: 100px;
+    cursor: pointer;   
+}
+
+.R{
+    background-image: url("Images/rock.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.P{
+    background-image: url("Images/paper.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.S{
+    background-image: url("Images/Scissors.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Score Content */
+
+#scoreboard{
+    height: 30vmin;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.score{
+    font-size: 30px;
+}
+
+/* Message Content */
+
+#msg-container{
+    height: 10vmin;
+    width: 40vmin;
+    font-size: 30px;
+    color: white;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29rem;
+}
